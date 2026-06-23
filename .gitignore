@@ -38,3 +38,8 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+
+### Environment variables ###
+.env
+.env.*
+!.env.example

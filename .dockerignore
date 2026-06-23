@@ -1,0 +1,29 @@
+# Version control
+.git
+.gitignore
+
+# IDEs and editors
+.idea
+.vscode
+*.iml
+*.ipr
+*.iws
+
+# Build artifacts
+target/
+*.jar
+*.war
+
+# Maven wrapper files (since we will build inside container using maven image, or if we use wrapper we can copy it, but standard maven image has maven installed)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.env
+.env.*
+
+# Documentation
+README.md
